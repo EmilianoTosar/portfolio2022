@@ -1,5 +1,5 @@
 import { Text, Box, Button, Icon } from '@chakra-ui/react'
-import { FaGithub, FaGlobe, FaLinkedin, FaTwitter } from 'react-icons/fa'
+import { FaGithub, FaGlobe } from 'react-icons/fa'
 
 export const ProyectGridItem = ({ proyecto }) => {
   return (
