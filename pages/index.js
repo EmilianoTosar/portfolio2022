@@ -57,7 +57,7 @@ export default function Page() {
                 <Icon as={FaLinkedin} h={5} w={5} />
               </a>
               <a
-                href="https://twitter.com/manza_na"
+                href="https://twitter.com/emiliano_ttt"
                 target="_blank"
                 rel="noreferrer"
               >
