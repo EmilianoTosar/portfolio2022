@@ -17,6 +17,7 @@ import { ProyectGridItem } from '../components/grid-item'
 import { ArrowForwardIcon } from '@chakra-ui/icons'
 import { ContactForm } from '../components/contact-form'
 import { Skills } from '../components/skills'
+import { Chatbot } from '../components/chatbot.tsx'
 import { FaGithub, FaLinkedin, FaTwitter } from 'react-icons/fa'
 
 export default function Page() {
@@ -109,11 +110,14 @@ export default function Page() {
               >
                 Ver más <ArrowForwardIcon />
               </Link>
-            </NextLink>
+            </NextLink> 
           </Box>
         </Box>
         <Box mt={{ base: 12, md: 24 }}>
           <Skills />
+        </Box>
+        <Box mt={{ base: 12, md: 24 }}>
+          <Chatbot />
         </Box>
         <Box mt={{ base: 12, md: 24 }} id="contact">
           <ContactForm />

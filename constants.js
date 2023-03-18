@@ -103,3 +103,77 @@ export const icons = [
   'logos:sass',
   'logos:mongodb',
 ]
+
+export const ANSWERS = {
+  intro: (
+    <p>
+      Soy Emiliano Tosar, frontend developer, trabajo con el stack de React y
+      tambien hago webs con Wordpress. Actualmente me encuentro trabajando por
+      mi cuenta, de maner freelance para varias agencias. Tengo 37 años, vivo en
+      CABA, Argentina.
+    </p>
+  ),
+  comunidad: (
+    <p>
+      Si necesitas una mano o queres aprender a programar, podes aprender con el
+      mejor:{' '}
+      <a
+        href="https://discord.goncy.dev"
+        rel="noopener noreferrer"
+        target="_blank"
+      >
+        Goncy
+      </a>
+    </p>
+  ),
+  unknown: (
+    <p>
+      En realidad no soy Emiliano, soy una IA preparada para contestar solo
+      algunas preguntas. Intenta reformular por favor!
+    </p>
+  ),
+  contacto: (
+    <p>
+      Podes contactarme a traves de mis redes o mandarme un mail:
+      <ul>
+        <li>Twitter</li>
+        <li>LinkedIn</li>
+        <li>Gmail</li>
+      </ul>
+    </p>
+  ),
+}
+
+export const EXAMPLES = [
+  { text: 'Hola', label: 'intro' },
+  { text: 'Cómo estás?', label: 'intro' },
+  { text: 'Quién sos?', label: 'intro' },
+  { text: 'Tengo un trabajo para vos', label: 'contacto' },
+  { text: 'Por dónde te puedo contactar?', label: 'contacto' },
+  { text: 'Tengo una duda', label: 'comunidad' },
+  { text: 'Necesito solucionar algo', label: 'comunidad' },
+  { text: 'Dónde trabajas?', label: 'intro' },
+  { text: 'Con qué tecnologías trabajas?', label: 'intro' },
+  { text: 'Tenés experiencia laboral?', label: 'intro' },
+  { text: 'Estás escuchando propuestas?', label: 'intro' },
+  { text: 'Sabés inglés?', label: 'intro' },
+  { text: 'Cómo es tu LinkedIn?', label: 'contacto' },
+  { text: 'Cómo es tu github?', label: 'contacto' },
+  { text: 'Estás trabajando?', label: 'intro' },
+  { text: 'Cómo hiciste este chat?', label: 'comunidad' },
+  { text: 'Cómo aprender a programar?', label: 'comunidad' },
+  { text: 'Te puedo hacer una consulta?', label: 'contacto' },
+  { text: 'Cuales son tus redes?', label: 'contacto' },
+  { text: 'Tenés recursos o tutoriales para recomendar?', label: 'comunidad' },
+  { text: 'Con qué tecnología hiciste este portfolio?', label: 'comunidad' },
+  { text: 'Sos el dios de los minisupers?', label: 'unknown' },
+  { text: 'Tenés un currículum?', label: 'contacto' },
+  { text: 'Tenés mascotas?', label: 'unknown' },
+  { text: 'Arreglás impresoras?', label: 'unknown' },
+  { text: 'Contame un chiste', label: 'unknown' },
+  { text: 'Cuál es tu expectativa salarial?', label: 'contacto' },
+  { text: 'Estás buscando trabajo?', label: 'intro' },
+  { text: 'Cuál es tu empleo actual?', label: 'intro' },
+]
+
+export const API_KEY_COHERE = 'GLeeLe2uKCTBGulnYWyCRmsxYdQKORnYM01THVDj'
