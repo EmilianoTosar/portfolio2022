@@ -85,7 +85,7 @@ export default function Page() {
               alt="Foto de perfil"
             />
             <Link
-              href=""
+              href="/cv-emiliano.pdf"
               download="Emiliano Tosar CV"
               variant="download"
             >
