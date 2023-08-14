@@ -58,7 +58,7 @@ const NavBar = props => {
         justify="space-between"
       >
         <Flex align="center" mr={5}>
-          <Heading as="h1" size="lg" letterSpacing='tighter'>
+          <Heading as="h1" size="lg" letterSpacing="tighter">
             <Logo />
           </Heading>
         </Flex>
@@ -74,8 +74,11 @@ const NavBar = props => {
           <LinkItem href="/proyects" path={path}>
             Proyectos
           </LinkItem>
-          <LinkItem href="https://portfolio2022-five.vercel.app/#contact" path={path}>
+          <LinkItem href="https://emilianotosar.com.ar/#contact" path={path}>
             Contacto
+          </LinkItem>
+          <LinkItem href="/wordpress" path={path}>
+            Wordpress
           </LinkItem>
         </Stack>
 

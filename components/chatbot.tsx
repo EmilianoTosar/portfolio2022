@@ -83,25 +83,27 @@ export const Chatbot = () => {
             </div>
           ))}
         </div>
-        <form className="flex items-center" onSubmit={handleSubmit}>
-          <input
-            value={question}
-            onChange={event => setQuestion(event.target.value)}
-            className="flex-1 rounded-lg rounded-r-none py-2 px-4 text-black"
-            placeholder="Quien sos?"
-            type="text"
-            name="question"
-          />
-          <button
-            className={`px-4 py-2 rounded-lg rounded-l-none bg-blue-500 ${
-              loading ? 'bg-blue-300' : 'bg-blue-500'
-            }`}
-            type="submit"
-            disabled={loading || question === ''}
-          >
-            Enviar
-          </button>
-        </form>
+        <div className="max-w-[100%]">
+          <form className="flex items-center" onSubmit={handleSubmit}>
+            <input
+              value={question}
+              onChange={event => setQuestion(event.target.value)}
+              className="w-2/3 sm:w-3/4 rounded-lg rounded-r-none py-2 px-4 text-black border-solid border-2 border-black-600"
+              placeholder="Quien sos?"
+              type="text"
+              name="question"
+            />
+            <button
+              className={`w-1/3 sm:w-1/4 px-4 py-2 rounded-lg rounded-l-none bg-blue-500 border-solid border-2 border-black-600 text-white ${
+                loading ? 'bg-blue-300' : 'bg-blue-500'
+              }`}
+              type="submit"
+              disabled={loading || question === ''}
+            >
+              Enviar
+            </button>
+          </form>
+        </div>
       </div>
     </main>
   )

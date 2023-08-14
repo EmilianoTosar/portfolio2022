@@ -25,7 +25,7 @@ export const ProyectGridItem = ({ proyecto }) => {
             flexDirection: 'column',
             justifyContent: 'space-between',
             background: 'linear-gradient(45deg, #a253ed, #7ee7c2)',
-            opacity: '0.9'
+            opacity: '0.9',
           }}
         >
           <Text
@@ -37,13 +37,16 @@ export const ProyectGridItem = ({ proyecto }) => {
           >
             {proyecto.description}
           </Text>
-
-          <Box display="flex" justifyContent="space-between">
-            <a href={proyecto.repo} target="_blank" rel="noreferrer">
-              <Button size="sm" variant="card-button">
-                <Icon as={FaGithub} />
-              </Button>
-            </a>
+          <Box display="flex" justifyContent={proyecto.repo ? "space-between" : "center"}>
+            {proyecto.repo ? (
+              <a href={proyecto.repo} target="_blank" rel="noreferrer">
+                <Button size="sm" variant="card-button">
+                  <Icon as={FaGithub} />
+                </Button>
+              </a>
+            ) : (
+              ''
+            )}
             <a href={proyecto.href} target="_blank" rel="noreferrer">
               <Button size="sm" variant="card-button">
                 <Icon as={FaGlobe} />

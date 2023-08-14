@@ -68,8 +68,7 @@ export const frontendExercises = [
     thumbnail: '/images/componentes/job-listing-filter.png',
     alt: 'Static job filtering',
     title: 'Filtro de búsqueda',
-    description:
-      'Hecha en React integramente. Posee un filtro de búsqueda y es 100% interactiva',
+    description: 'Filtro de búsqueda 100% interactivo, realizado en React',
     href: 'http://static-job-filtering.vercel.app/',
     repo: 'https://github.com/EmilianoTosar/static-job-filtering',
   },
@@ -77,7 +76,7 @@ export const frontendExercises = [
     thumbnail: '/images/componentes/interactive-pricing.png',
     alt: 'Interactive pricing component',
     title: 'Slider interactivo',
-    description: 'Componente interactivo hecho en React',
+    description: 'Componente interactivo con un slider hecho en React',
     href: 'http://interactive-pricing-component-beige-ten.vercel.app/',
     repo: 'https://github.com/EmilianoTosar/interactive-pricing-component',
   },
@@ -91,17 +90,41 @@ export const frontendExercises = [
   },
 ]
 
+export const wordpressWorks = [
+  {
+    thumbnail: '/images/wordpress/Isasa-Lopetegui-–-Estudio-Odontológico.png',
+    alt: 'Centro Odontológico',
+    title: 'Centro Odontológico',
+    description: 'Página desarrollada con Wordpress',
+    href: 'https://isasalopetegui.com',
+  },
+  {
+    thumbnail: '/images/wordpress/Proyecto-Dragones.png',
+    alt: 'Proyecto Dragones',
+    title: 'Proyecto Dragones',
+    description: 'Página desarrollada con Wordpress',
+    href: 'https://proyectodragones.org',
+  },
+  {
+    thumbnail: '',
+    alt: 'Goodaabi',
+    title: 'E-commerce Goodaabi',
+    description:
+      'E-commerce desarrollado con woocommerce sobre Wordpress, para una tienda online',
+    href: 'https://goodaabi.com',
+  },
+]
+
 export const icons = [
-  'logos:typescript-icon',
-  'logos:nextjs-icon',
-  'logos:nodejs-icon',
-  'logos:react',
   'logos:javascript',
-  'logos:git-icon',
+  'logos:nodejs-icon',
+  'logos:typescript-icon',
+  'logos:react',
+  'logos:nextjs-icon',
+  'logos:php',
   'logos:wordpress-icon',
   'logos:css-3',
-  'logos:sass',
-  'logos:mongodb',
+  'logos:git-icon',
 ]
 
 export const ANSWERS = {
@@ -109,8 +132,8 @@ export const ANSWERS = {
     <p>
       Soy Emiliano Tosar, frontend developer, trabajo con el stack de React y
       tambien hago webs con Wordpress. Actualmente me encuentro trabajando por
-      mi cuenta, de maner freelance para varias agencias. Tengo 37 años, vivo en
-      CABA, Argentina.
+      mi cuenta, de manera freelance para varias agencias. Vivo en CABA,
+      Argentina.
     </p>
   ),
   comunidad: (
@@ -136,9 +159,33 @@ export const ANSWERS = {
     <p>
       Podes contactarme a traves de mis redes o mandarme un mail:
       <ul>
-        <li>Twitter</li>
-        <li>LinkedIn</li>
-        <li>Gmail</li>
+        <li>
+          <a
+            href="https://twitter.com/emiliano_tttt"
+            rel="noopener noreferrer"
+            target="_blank"
+          >
+            Twitter
+          </a>
+        </li>
+        <li>
+          <a
+            href="https://www.linkedin.com/in/emiliano-tosar-331482200/"
+            rel="noopener noreferrer"
+            target="_blank"
+          >
+            LinkedIn
+          </a>
+        </li>
+        <li>
+          <a
+            href="mailto:emiliano.r.tosar@gmail.com"
+            rel="noopener noreferrer"
+            target="_blank"
+          >
+            Gmail
+          </a>
+        </li>
       </ul>
     </p>
   ),

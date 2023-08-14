@@ -58,7 +58,7 @@ export default function Page() {
                 <Icon as={FaLinkedin} h={5} w={5} />
               </a>
               <a
-                href="https://twitter.com/emiliano_ttt"
+                href="https://twitter.com/emiliano_tttt"
                 target="_blank"
                 rel="noreferrer"
               >
@@ -70,9 +70,9 @@ export default function Page() {
             mt={{ base: 4, md: 0 }}
             ml={{ md: 6 }}
             align={{ base: 'left', md: 'center' }}
-            display='flex'
-            flexDirection='column'
-            alignItems='center'
+            display="flex"
+            flexDirection="column"
+            alignItems="center"
           >
             <Image
               borderColor="whiteAlpha.200"
@@ -85,7 +85,7 @@ export default function Page() {
               alt="Foto de perfil"
             />
             <Link
-              href="/cv-emiliano.pdf"
+              href="/CV - EmilianoTosar.pdf"
               download="Emiliano Tosar CV"
               variant="download"
             >
@@ -110,7 +110,7 @@ export default function Page() {
               >
                 Ver más <ArrowForwardIcon />
               </Link>
-            </NextLink> 
+            </NextLink>
           </Box>
         </Box>
         <Box mt={{ base: 12, md: 24 }}>
