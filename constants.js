@@ -22,7 +22,7 @@ export const proyectos = [
     alt: 'Youtube Search App',
     title: 'App de busqueda en Youtube',
     description:
-      'App realizada con React en la cual, a traves de la api de YouTube generamos un pequeño clon con su motor de busqueda. Custom hooks, manejo de apis.',
+      'App realizada con React en la cual, a traves de la api de YouTube generamos un pequeño clon con su motor de búsqueda. Custom hooks, manejo de apis.',
     href: 'https://brave-feynman-3b7f00.netlify.app/',
     repo: 'https://github.com/EmilianoTosar/yt-app',
   },
@@ -48,7 +48,7 @@ export const proyectos = [
     thumbnail: '/images/proyectos/portfolio.png',
     alt: 'Portfolio',
     title: 'Mi primer portfolio',
-    description: 'Primer portfolio, realizado con react',
+    description: 'Primer portfolio, realizado con React',
     href: 'https://distracted-einstein-fcf5d3.netlify.app/',
     repo: 'https://github.com/EmilianoTosar/portfolio',
   },
@@ -76,7 +76,7 @@ export const frontendExercises = [
     thumbnail: '/images/componentes/interactive-pricing.png',
     alt: 'Interactive pricing component',
     title: 'Slider interactivo',
-    description: 'Componente interactivo con un slider hecho en React',
+    description: 'Slider interactivo hecho en React',
     href: 'http://interactive-pricing-component-beige-ten.vercel.app/',
     repo: 'https://github.com/EmilianoTosar/interactive-pricing-component',
   },
@@ -106,7 +106,8 @@ export const wordpressWorks = [
     href: 'https://proyectodragones.org',
   },
   {
-    thumbnail: '',
+    thumbnail:
+      '/images/wordpress/Grupos-de-descenso-y-cambio-de-hábitos-–-Goodaabi.png',
     alt: 'Goodaabi',
     title: 'E-commerce Goodaabi',
     description:
@@ -218,6 +219,11 @@ export const EXAMPLES = [
   { text: 'Tenés mascotas?', label: 'unknown' },
   { text: 'Arreglás impresoras?', label: 'unknown' },
   { text: 'Contame un chiste', label: 'unknown' },
+  { text: 'Quién ganó las elecciones?', label: 'unknown' },
+  { text: 'Pizza', label: 'unknown' },
+  { text: 'Cualquier cosa', label: 'unknown' },
+  { text: 'asdfgaslm', label: 'unknown' },
+  { text: 'bot', label: 'unknown' },
   { text: 'Cuál es tu expectativa salarial?', label: 'contacto' },
   { text: 'Estás buscando trabajo?', label: 'intro' },
   { text: 'Cuál es tu empleo actual?', label: 'intro' },
