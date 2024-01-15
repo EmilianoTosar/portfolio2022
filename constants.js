@@ -174,7 +174,7 @@ export const wordpressWorks = [
     href: 'https://unoxuno.com.ar',
   },
   {
-    thumbnail: 'images/wordpress/UNOxUNO-–-Agencia-de-Marketing-Digital.png',
+    thumbnail: 'images/wordpress/Estudio-Nunes-Asociados (2).png',
     alt: 'Estudio Nunes',
     title: 'Estudio Nunes',
     description: 'Página institucional del estudio jurídico Nunes & Asociados.',
