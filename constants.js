@@ -95,14 +95,16 @@ export const wordpressWorks = [
     thumbnail: '/images/wordpress/Isasa-Lopetegui-–-Estudio-Odontológico.png',
     alt: 'Centro Odontológico',
     title: 'Centro Odontológico',
-    description: 'Página desarrollada con Wordpress',
+    description:
+      'Página institucional de un centro odontológico de la zona de Martínez, provincia de Buenos Aires.',
     href: 'https://isasalopetegui.com',
   },
   {
     thumbnail: '/images/wordpress/Proyecto-Dragones.png',
     alt: 'Proyecto Dragones',
     title: 'Proyecto Dragones',
-    description: 'Página desarrollada con Wordpress',
+    description:
+      'Página institucional de un proyecto solidario que ayuda a comunidades del norte argentino.',
     href: 'https://proyectodragones.org',
   },
   {
@@ -111,8 +113,72 @@ export const wordpressWorks = [
     alt: 'Goodaabi',
     title: 'E-commerce Goodaabi',
     description:
-      'E-commerce desarrollado con woocommerce sobre Wordpress, para una tienda online',
+      'E-commerce desarrollado con woocommerce para una tienda online',
     href: 'https://goodaabi.com',
+  },
+  {
+    thumbnail: '/images/wordpress/Alma-Casera.png',
+    alt: 'Alma Casera',
+    title: 'Alma Casera',
+    description:
+      'Página institucional de una empresa gastronómica dedicada a la venta de productos y la promoción de franquicias.',
+    href: 'https://almacasera.com.ar',
+  },
+  {
+    thumbnail: '/images/wordpress/Home-Fundación-San-Isidro-2050.png',
+    alt: 'Fundación San Isidro 2050',
+    title: 'Fundación San Isidro 2050',
+    description:
+      'Página institucional de la fundación vecinal San Isidro 2050.',
+    href: 'https://sanisidro2050.org',
+  },
+  {
+    thumbnail: '/images/wordpress/Inicio-BH-Consulting.png',
+    alt: 'BH Consulting',
+    title: 'BH Consulting',
+    description:
+      'Página institucional de una consultora con foco en el sistema SAP.',
+    href: 'https://bhconsulting.com.ar',
+  },
+  {
+    thumbnail: '/images/wordpress/Parroquia-Santa-María-de-la-Lucila.png',
+    alt: 'Parroquia Santa María de La Lucila',
+    title: 'Parroquia Santa María de La Lucila',
+    description:
+      'Página institucional de la Parroquia Santa María de La Lucila.',
+    href: 'https://parroquiasantamariadelalucila.com',
+  },
+  {
+    thumbnail: '/images/wordpress/Stavanger-Energy.png',
+    alt: 'Stavanger Energy',
+    title: 'Stavanger Energy',
+    description:
+      'Página institucional de Stavanger Energy, empresa dedicada a la comercialización y distribución de combustibles.',
+    href: 'https://stavangerenergy.com',
+  },
+  {
+    thumbnail:
+      '/images/wordpress/The-Global-Language-Coach-–-We-open-up-language-to-everyone.png',
+    alt: 'The Global Language Coach',
+    title: 'The Global Language Coach',
+    description:
+      'Página institucional de The Global Language Coach, web dedicada a la enseñanza de inglés e italiano.',
+    href: 'https://thegloballanguagecoach.org',
+  },
+  {
+    thumbnail: 'images/wordpress/UNOxUNO-–-Agencia-de-Marketing-Digital.png',
+    alt: 'Agencia de Marketing Digital UNOXUNO',
+    title: 'Agencia de Marketing Digital UNOXUNO',
+    description:
+      'Página institucional de la agencia de marketing digital UnoxUno.',
+    href: 'https://unoxuno.com.ar',
+  },
+  {
+    thumbnail: 'images/wordpress/UNOxUNO-–-Agencia-de-Marketing-Digital.png',
+    alt: 'Estudio Nunes',
+    title: 'Estudio Nunes',
+    description: 'Página institucional del estudio jurídico Nunes & Asociados.',
+    href: 'https://estudionunes.com.ar',
   },
 ]
 

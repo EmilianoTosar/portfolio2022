@@ -94,14 +94,14 @@ const NavBar = props => {
                 aria-label="Options"
               />
               <MenuList>
-                <NextLink href="/" passHref>
-                  <MenuItem as={Link}>About</MenuItem>
-                </NextLink>
                 <NextLink href="/proyects" passHref>
-                  <MenuItem as={Link}>Proyects</MenuItem>
+                  <MenuItem as={Link}>Proyectos</MenuItem>
                 </NextLink>
-                <NextLink href="https://www.github.com/EmilianoTosar/" passHref>
-                  <MenuItem as={Link}>Source</MenuItem>
+                <NextLink href="https://emilianotosar.com.ar/#contact" passHref>
+                  <MenuItem as={Link}>Contacto</MenuItem>
+                </NextLink>
+                <NextLink href="/wordpress" passHref>
+                  <MenuItem as={Link}>Wordpress</MenuItem>
                 </NextLink>
               </MenuList>
             </Menu>
