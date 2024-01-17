@@ -125,14 +125,6 @@ export const wordpressWorks = [
     href: 'https://almacasera.com.ar',
   },
   {
-    thumbnail: '/images/wordpress/Home-Fundación-San-Isidro-2050.png',
-    alt: 'Fundación San Isidro 2050',
-    title: 'Fundación San Isidro 2050',
-    description:
-      'Página institucional de la fundación vecinal San Isidro 2050.',
-    href: 'https://sanisidro2050.org',
-  },
-  {
     thumbnail: '/images/wordpress/Inicio-BH-Consulting.png',
     alt: 'BH Consulting',
     title: 'BH Consulting',
