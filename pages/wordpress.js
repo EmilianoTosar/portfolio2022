@@ -33,15 +33,7 @@ const Proyects = () => {
           align={'justify'}
           color={useColorModeValue('black', 'gray')}
         >
-          Tengo experiencia en el desarrollo y personalización de temas de
-          WordPress, incluyendo la creación de child themes. Soy experto en la
-          configuración y optimización de plugins, así como en el desarrollo de
-          soluciones personalizadas. Manejo prácticas de seguridad, gestión de
-          usuarios y optimización SEO. Además, tengo conocimientos en HTML, CSS,
-          y JavaScript para personalizaciones avanzadas, y experiencia en
-          e-commerce con WooCommerce. También realizo migraciones de sitios y
-          utilizo herramientas como Google Analytics para mejorar el rendimiento
-          de los sitios.
+          Tengo experiencia en el desarrollo y personalización de temas de WordPress, incluyendo la creación de child themes. Soy experto en la configuración y optimización de plugins, así como en el desarrollo de soluciones personalizadas. Manejo prácticas de seguridad, gestión de usuarios y optimización SEO. Además, tengo conocimientos en HTML, CSS, y JavaScript para personalizaciones avanzadas, y experiencia en e-commerce con WooCommerce. También realizo migraciones de sitios y utilizo herramientas como Google Analytics para mejorar el rendimiento de los sitios.
         </Text>
         <Text
           mt={4}

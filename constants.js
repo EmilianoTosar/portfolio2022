@@ -164,11 +164,25 @@ export const wordpressWorks = [
     href: 'https://thegloballanguagecoach.org',
   },
   {
+    thumbnails: ['images/wordpress/Parroquia-Santa-María-de-la-Lucila.png', ''],
+    alt: 'Parroquia Santa María de la Lucila',
+    title: 'Parroquia Santa María de la Lucila',
+    description: 'Página institucional para parroquia',
+    href: 'https://parroquiasantamariadelalucila.com/',
+  },
+  {
     thumbnails: ['images/wordpress/Estudio-Nunes-Asociados.png', ''],
     alt: 'Estudio Nunes',
     title: 'Estudio Nunes',
     description: 'Página institucional para estudio jurídico',
     href: 'https://estudionunes.com.ar',
+  },
+  {
+    thumbnails: ['images/wordpress/Home-Fundación-San-Isidro-2050.png', ''],
+    alt: 'Fundación San Isidro',
+    title: 'Fundación San Isidro',
+    description: 'Página institucional para fundación vecinal',
+    href: 'https://sanisidro2050.org/',
   },
 ]
 
