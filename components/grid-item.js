@@ -14,7 +14,7 @@ export const ProyectGridItem = ({ proyecto }) => {
         backgroundRepeat="no-repeat"
         overflow="hidden"
         transition="transform 500ms ease"
-        _hover={{ transform: 'scale(1.05)' }}
+        _hover={{ transform: 'scale(1.01)' }}
       >
         <Box
           display="none"
@@ -37,16 +37,15 @@ export const ProyectGridItem = ({ proyecto }) => {
           >
             {proyecto.description}
           </Text>
-          <Box display="flex" justifyContent={proyecto.repo ? "space-between" : "center"}>
-            {proyecto.repo ? (
-              <a href={proyecto.repo} target="_blank" rel="noreferrer">
-                <Button size="sm" variant="card-button">
-                  <Icon as={FaGithub} />
-                </Button>
-              </a>
-            ) : (
-              ''
-            )}
+          <Box
+            display="flex"
+            justifyContent={proyecto.repo ? 'space-between' : 'center'}
+          >
+            <a href={proyecto.repo} target="_blank" rel="noreferrer">
+              <Button size="sm" variant="card-button">
+                <Icon as={FaGithub} />
+              </Button>
+            </a>
             <a href={proyecto.href} target="_blank" rel="noreferrer">
               <Button size="sm" variant="card-button">
                 <Icon as={FaGlobe} />

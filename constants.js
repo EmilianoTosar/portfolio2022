@@ -1,14 +1,5 @@
 export const proyectos = [
   {
-    thumbnail: '/images/proyectos/pokemon-challenge.png',
-    alt: 'Pokemon Game',
-    title: 'Juego de adivinanzas pokemon',
-    description:
-      'Juego realizado en React, a partir de un challenge creado por Gonzalo Pozzo',
-    href: 'https://pokemon-challenge-sepia.vercel.app/',
-    repo: 'https://github.com/EmilianoTosar/pokemon-challenge',
-  },
-  {
     thumbnail: '/images/proyectos/canelo-store.png',
     alt: 'Store',
     title: 'Store con whatsapp checkout',
@@ -25,6 +16,15 @@ export const proyectos = [
       'App realizada con React en la cual, a traves de la api de YouTube generamos un pequeño clon con su motor de búsqueda. Custom hooks, manejo de apis.',
     href: 'https://brave-feynman-3b7f00.netlify.app/',
     repo: 'https://github.com/EmilianoTosar/yt-app',
+  },
+  {
+    thumbnail: '/images/proyectos/pokemon-challenge.png',
+    alt: 'Pokemon Game',
+    title: 'Juego de adivinanzas pokemon',
+    description:
+      'Juego realizado en React, a partir de un challenge creado por Gonzalo Pozzo',
+    href: 'https://pokemon-challenge-sepia.vercel.app/',
+    repo: 'https://github.com/EmilianoTosar/pokemon-challenge',
   },
   {
     thumbnail: '/images/proyectos/color-game.png',
@@ -92,84 +92,82 @@ export const frontendExercises = [
 
 export const wordpressWorks = [
   {
-    thumbnail: '/images/wordpress/Isasa-Lopetegui-–-Estudio-Odontológico.png',
+    thumbnails: [
+      '/images/wordpress/Isasa-Lopetegui-–-Estudio-Odontológico.png',
+      '',
+    ],
     alt: 'Centro Odontológico',
     title: 'Centro Odontológico',
-    description:
-      'Página institucional de un centro odontológico de la zona de Martínez, provincia de Buenos Aires.',
+    description: 'Página institucional para centro odontológico',
     href: 'https://isasalopetegui.com',
   },
   {
-    thumbnail: '/images/wordpress/Proyecto-Dragones.png',
-    alt: 'Proyecto Dragones',
-    title: 'Proyecto Dragones',
-    description:
-      'Página institucional de un proyecto solidario que ayuda a comunidades del norte argentino.',
-    href: 'https://proyectodragones.org',
+    thumbnails: [
+      '/images/wordpress/Viví-Fotografía-–-Cursos-PhotoWalks.png',
+      '',
+    ],
+    alt: 'Viví Fotografía',
+    title: 'Viví Fotografía',
+    description: 'E-commerce para venta de cursos de fotografía',
+    href: 'https://vivifotografia.com',
   },
   {
-    thumbnail:
+    thumbnails: ['images/wordpress/Shinka-Digital.png', ''],
+    alt: 'Agencia de Marketing Shinka Digital',
+    title: 'Agencia de Marketing Shinka Digital',
+    description: 'Página institucional para agencia de marketing digital',
+    href: 'https://shinka.digital',
+  },
+  {
+    thumbnails: [
+      '/images/wordpress/Instasold-–-Fábrica-mayorista-de-repuestos-sanitarios.png',
+      '',
+    ],
+    alt: 'Instasold',
+    title: 'Instasold',
+    description:
+      'E-commerce con envío de presupuestos para empresa de venta de sanitarios',
+    href: 'https://instasold.com.ar',
+  },
+  {
+    thumbnails: [
       '/images/wordpress/Grupos-de-descenso-y-cambio-de-hábitos-–-Goodaabi.png',
+      '',
+    ],
     alt: 'Goodaabi',
     title: 'E-commerce Goodaabi',
-    description:
-      'E-commerce desarrollado con woocommerce para una tienda online',
+    description: 'E-commerce desarrollado con woocommerce para tienda online',
     href: 'https://goodaabi.com',
   },
   {
-    thumbnail: '/images/wordpress/Alma-Casera.png',
-    alt: 'Alma Casera',
-    title: 'Alma Casera',
-    description:
-      'Página institucional de una empresa gastronómica dedicada a la venta de productos y la promoción de franquicias.',
-    href: 'https://almacasera.com.ar',
+    thumbnails: ['/images/wordpress/Proyecto-Dragones.png', ''],
+    alt: 'Proyecto Dragones',
+    title: 'Proyecto Dragones',
+    description: 'Página institucional para ONG',
+    href: 'https://proyectodragones.org',
   },
   {
-    thumbnail: '/images/wordpress/Inicio-BH-Consulting.png',
+    thumbnails: ['/images/wordpress/Inicio-BH-Consulting.png', ''],
     alt: 'BH Consulting',
     title: 'BH Consulting',
-    description:
-      'Página institucional de una consultora con foco en el sistema SAP.',
+    description: 'Modernizacion de página institucional para consultora SAP',
     href: 'https://bhconsulting.com.ar',
   },
   {
-    thumbnail: '/images/wordpress/Parroquia-Santa-María-de-la-Lucila.png',
-    alt: 'Parroquia Santa María de La Lucila',
-    title: 'Parroquia Santa María de La Lucila',
-    description:
-      'Página institucional de la Parroquia Santa María de La Lucila.',
-    href: 'https://parroquiasantamariadelalucila.com',
-  },
-  {
-    thumbnail: '/images/wordpress/Stavanger-Energy.png',
-    alt: 'Stavanger Energy',
-    title: 'Stavanger Energy',
-    description:
-      'Página institucional de Stavanger Energy, empresa dedicada a la comercialización y distribución de combustibles.',
-    href: 'https://stavangerenergy.com',
-  },
-  {
-    thumbnail:
+    thumbnails: [
       '/images/wordpress/The-Global-Language-Coach-–-We-open-up-language-to-everyone.png',
+      '',
+    ],
     alt: 'The Global Language Coach',
     title: 'The Global Language Coach',
-    description:
-      'Página institucional de The Global Language Coach, web dedicada a la enseñanza de inglés e italiano.',
+    description: 'Página institucional multilingüe',
     href: 'https://thegloballanguagecoach.org',
   },
   {
-    thumbnail: 'images/wordpress/UNOxUNO-–-Agencia-de-Marketing-Digital.png',
-    alt: 'Agencia de Marketing Digital UNOXUNO',
-    title: 'Agencia de Marketing Digital UNOXUNO',
-    description:
-      'Página institucional de la agencia de marketing digital UnoxUno.',
-    href: 'https://unoxuno.com.ar',
-  },
-  {
-    thumbnail: 'images/wordpress/Estudio-Nunes-Asociados.png',
+    thumbnails: ['images/wordpress/Estudio-Nunes-Asociados.png', ''],
     alt: 'Estudio Nunes',
     title: 'Estudio Nunes',
-    description: 'Página institucional del estudio jurídico Nunes & Asociados.',
+    description: 'Página institucional para estudio jurídico',
     href: 'https://estudionunes.com.ar',
   },
 ]
